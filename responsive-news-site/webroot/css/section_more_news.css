@@ -25,3 +25,17 @@
 #section_more_news .category a {
   color: #FA6980;
 }
+
+@media (min-width: 768px) {
+  .section_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+  }
+  .section_container article:nth-of-type(1) {
+    grid-column: 1;
+  }
+  .section_container artice:nth-of-type(2) {
+    grid-column: 2;
+  }
+}
