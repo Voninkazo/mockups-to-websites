@@ -5,7 +5,7 @@
   #section_trending {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10%;
+    column-gap: 2.5rem;
   }
   #section_trending header {
     grid-column-start: span 2;

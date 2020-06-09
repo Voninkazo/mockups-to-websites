@@ -1,4 +1,4 @@
-body > footer {
+body>footer {
   padding: 3.75rem 1rem;
   background-color: #A6ADB4;
   color: #fff;
@@ -10,13 +10,13 @@ body > footer > h2 a {
   font-size: 0.875rem;
 }
 
-body > footer ul {
+body >footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-body > footer a {
+body >footer a {
   color: inherit;
   text-decoration: none;
   font-weight: 700;
@@ -44,7 +44,7 @@ body > footer a {
   color: #fff;
 }
 
-.link_primary + .link_secondary {
+.link_primary+.link_secondary {
   margin-block-start: 0;
 }
 
@@ -58,15 +58,33 @@ body > footer a {
   justify-content: space-between;
   max-width: 8.5rem;
 }
+
 @media (min-width: 768px) {
   .link_primary {
     display: block;
     color: #A6ADB4;
   }
-  footer > ul {
+
+  body > footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+    padding-inline-start: 4rem;
+    padding-inline-end: 4rem;
+  }
+  .links_site {
+    columns: 3;
+    margin: 0;
   }
 
+  .links_social {
+    align-self: end;
+    grid-column: 2;
+    grid-row: 2;
+    margin-inline-start: 10rem;
+  }
+  body > footer > h2 {
+    margin: 0;
+  }
 }

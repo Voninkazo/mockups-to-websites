@@ -30,7 +30,7 @@
   #section_more_news {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10%;
+    column-gap: 2.5rem;
   }
   #section_more_news header {
     grid-column-start: span 2;
