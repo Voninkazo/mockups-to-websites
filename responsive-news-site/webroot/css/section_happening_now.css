@@ -14,3 +14,15 @@
   border-block-start: 2px solid #EBEDED;
   padding-block-start: 2.5rem;
 }
+@media (min-width: 768px) {
+  #section_happening_now {
+
+  }
+  .article_image img {
+    width: 284px;
+    height: 180px;
+  }
+  #section_happening_now article:nth-of-type(5) {
+    display: none;
+  }
+}
