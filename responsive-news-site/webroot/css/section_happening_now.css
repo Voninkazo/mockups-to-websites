@@ -16,7 +16,12 @@
 }
 @media (min-width: 768px) {
   #section_happening_now {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+  }
+  #section_happening_now .article_card {
+    grid-column-start: span 2;
   }
   .article_image img {
     width: 284px;

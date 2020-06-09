@@ -58,3 +58,6 @@ body > footer a {
   justify-content: space-between;
   max-width: 8.5rem;
 }
+@media (min-width: 768px) {
+
+}
