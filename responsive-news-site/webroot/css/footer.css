@@ -59,5 +59,14 @@ body > footer a {
   max-width: 8.5rem;
 }
 @media (min-width: 768px) {
+  .link_primary {
+    display: block;
+    color: #A6ADB4;
+  }
+  footer > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+  }
 
 }

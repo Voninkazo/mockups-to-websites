@@ -7,6 +7,9 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 10%;
   }
+  #section_trending header {
+    grid-column-start: span 2;
+  }
   #section_trending article:nth-of-type(1) {
     grid-column: 1;
   }

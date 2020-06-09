@@ -32,6 +32,9 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 10%;
   }
+  #section_more_news header {
+    grid-column-start: span 2;
+  }
   #section_more_news article:nth-of-type(1) {
     grid-column: 1;
   }
