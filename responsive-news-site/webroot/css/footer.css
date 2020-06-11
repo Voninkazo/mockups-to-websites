@@ -87,4 +87,10 @@ body >footer a {
   body > footer > h2 {
     margin: 0;
   }
+  label[for="subscribe_email"] {
+    visibility: visible;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
 }
