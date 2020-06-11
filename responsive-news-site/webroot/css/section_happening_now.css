@@ -33,4 +33,8 @@
   #section_happening_now article:nth-of-type(5) {
     display: none;
   }
+  #section_happening_now img[src="images/articles/elephant_m.jpeg"],
+  #section_happening_now img[src="images/articles/macaw_m.jpeg"] {
+    max-height: 180px;
+  }
 }
