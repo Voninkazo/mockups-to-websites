@@ -38,3 +38,12 @@
     max-height: 180px;
   }
 }
+@media (min-width: 1044px) {
+  #section_happening_now {
+    margin-inline-start: 10rem;
+  }
+  #section_happening_now article {
+    height: 430px;
+    width: 760px;
+}
+}
