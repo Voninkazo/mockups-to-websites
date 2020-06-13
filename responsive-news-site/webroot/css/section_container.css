@@ -31,3 +31,9 @@
     margin-inline-end: 4rem;
   }
 }
+@media (min-width: 1044px) {
+  .section_container {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+}

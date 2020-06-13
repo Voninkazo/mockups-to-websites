@@ -42,3 +42,8 @@
     grid-column: 2;
   }
 }
+@media (min-width: 1044px) {
+  #section_more_news {
+    display: block;
+  }
+}
