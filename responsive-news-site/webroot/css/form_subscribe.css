@@ -57,3 +57,8 @@
     right: 0.875rem;
   }
 }
+@media (min-width: 1044px) {
+  .form_subscribe {
+    margin-top: 0;
+  }
+}

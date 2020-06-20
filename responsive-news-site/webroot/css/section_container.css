@@ -37,4 +37,8 @@
   #section_trending article:last-of-type {
     display: block;
   }
+  .section_container article:not(.article_card) {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
 }

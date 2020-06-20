@@ -94,3 +94,33 @@ body >footer a {
     left: 10px;
   }
 }
+
+@media (min-width: 1044px) {
+  body > footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+  }
+  body > footer h2 {
+    grid-column-start: 1;
+  }
+  .links_site {
+    grid-column-start: 2;
+  }
+  body > footer > form {
+    grid-column-start: 3;
+  }
+  .links_social {
+    grid-column-start: 4;
+    grid-row: 1;
+    align-self: flex-start;
+    margin-inline-start: 0;
+    max-width: max-content;
+  }
+  .links_social li {
+    padding-inline-start: 2rem;
+  }
+  .links_site li {
+    margin: 0;
+  }
+}

@@ -54,7 +54,7 @@
 @media (min-width: 1044px) {
   #section_happening_now .article_simple > .article_image {
     max-width: 360px;
-    height: 210px;
+    max-height: 150px;
   }
   #section_happening_now article:nth-of-type(5) {
     display: flex;
@@ -70,5 +70,6 @@
 @media (min-width: 1044px) {
   #section_happening_now {
     display: block;
+    margin-inline-start: 10rem;
   }
 }
